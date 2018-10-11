@@ -1,0 +1,15 @@
+[package]
+name = "lide"
+version = "0.1.0"
+authors = ["Oliver Bøving <oliverboving@gmail.com>"]
+
+[dependencies]
+gl = "*"
+glutin = "0.13.1"
+cgmath = "*"
+image = "*"
+time = "*"
+warmy = "0.7.2"
+
+[dependencies.mg]
+path = "../mg"
